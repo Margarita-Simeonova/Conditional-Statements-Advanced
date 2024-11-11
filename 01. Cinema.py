@@ -19,4 +19,5 @@ def cinema(ticket_type, rows, columns):
 ticket_type = input()
 rows = int(input())
 columns = int(input())
-print(cinema(ticket_type, rows, columns))
+result = cinema(ticket_type, rows, columns)
+print(result)
