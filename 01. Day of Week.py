@@ -20,4 +20,5 @@ def day_of_week(numb):
 
 number = int(input())
 result = day_of_week(number)
+
 print()
