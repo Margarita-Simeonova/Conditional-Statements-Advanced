@@ -13,3 +13,8 @@
 02. Weekend or Working Day:
 
    Write a program that reads the day of the week (text), entered by the user. If the day is working, it prints on the console - "Working day", if it is a holiday - "Weekend". If a text other than a day of the week is entered, "Error" will be printed.
+
+########
+
+03. Animal Type:
+
