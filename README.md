@@ -19,3 +19,9 @@
 03. Animal Type:
 
 Write a program that reads an integer from the console and on each successive line integers until their sum is greater than or equal to the original number. After reading is complete, print the sum of the entered numbers.
+
+########
+
+04. Personal Titles:
+
+Write a program that reads a number n entered by the user and prints all numbers ≤ n from the sequence: 1, 3, 7, 15, 31, …. Each subsequent number is calculated by multiplying the previous one by 2 and adding 1.
