@@ -38,3 +38,11 @@ Write a program that calculates how much total money is in the account after you
 
 Write a program that, until the "Stop" command is received, reads integers entered by the user, finds the largest among them, and prints it. Enter one number per line.
 
+########
+
+07. Working Hours:
+
+Write a program that, until the "Stop" command is received, reads integers entered by the user, finds the smallest among them, and prints it. Enter one number per line.
+
+########
+
