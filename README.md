@@ -79,3 +79,5 @@ Write a program that reads the projection type (text), number of rows and number
 
 02. Summer Outfit:
 
+Summer is a season with very changeable weather and Victor needs your help. Write a program that, based on the time of day and the degrees, recommends Victor what clothes to wear. Your friend has different plans for each stage of the day, which also require a different appearance - you can see them from the table.
+Exactly two lines are read from the console:
