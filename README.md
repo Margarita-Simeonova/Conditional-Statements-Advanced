@@ -59,3 +59,9 @@ In case the student is excluded from school, print:
 "{student name} has been excluded at {grade in which he was excluded} grade"
 
 The value must be formatted to the second decimal place.
+
+
+# Conditional Statements Advanced - Exercise
+
+01. Cinema
+
