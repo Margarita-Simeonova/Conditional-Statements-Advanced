@@ -65,3 +65,7 @@ The value must be formatted to the second decimal place.
 
 01. Cinema
 
+In a movie theater, the chairs are arranged in a rectangular shape in r rows and c columns. There are three types of screenings with tickets at different prices:
+    • Premiere - premiere screening, at a price of BGN 12.00;
+    • Normal - standard projection, at a price of BGN 7.50;
+    • Discount - screening for children, schoolchildren and students at a reduced price of BGN 5.00.
