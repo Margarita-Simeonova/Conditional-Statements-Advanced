@@ -83,6 +83,7 @@ Summer is a season with very changeable weather and Victor needs your help. Writ
 Exactly two lines are read from the console:
 
 • Degrees - whole number;
+
 • Time of day - text with three options "Morning", "Afternoon" or "Evening".
 
 
