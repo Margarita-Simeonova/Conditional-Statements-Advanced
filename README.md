@@ -84,3 +84,5 @@ Exactly two lines are read from the console:
 
 • Degrees - whole number;
 • Time of day - text with three options "Morning", "Afternoon" or "Evening".
+
+
