@@ -81,3 +81,6 @@ Write a program that reads the projection type (text), number of rows and number
 
 Summer is a season with very changeable weather and Victor needs your help. Write a program that, based on the time of day and the degrees, recommends Victor what clothes to wear. Your friend has different plans for each stage of the day, which also require a different appearance - you can see them from the table.
 Exactly two lines are read from the console:
+
+• Degrees - whole number;
+• Time of day - text with three options "Morning", "Afternoon" or "Evening".
