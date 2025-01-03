@@ -89,3 +89,5 @@ Exactly two lines are read from the console:
 If 10 <= Degrees <= 18 -- Morning - Outfit = Sweatshirt and Shoes = Sneakers or -- Afternoon - Outfit = Shirt and Shoes = Moccasins or -- Evening - Outfit = Shirt and Shoes = Moccasins
 
 If 18 < Degrees <= 24 -- Morning - Outfit = Shirt and Shoes = Moccasins or -- Afternoon - Outfit = T-Shirt and Shoes = Sandals or -- Evening - Outfit = Shirt and Shoes = Moccasins
+
+If Degrees >= 25 -- Morning -Outfit = T-Shirt and Shoes = Sandals or -- Afternoon - Outfit = Swim Suit and Shoes = Barefoot or -- Evening - Outfit = Shirt and Shoes = Moccasins
