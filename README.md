@@ -87,4 +87,5 @@ Exactly two lines are read from the console:
 • Time of day - text with three options "Morning", "Afternoon" or "Evening".
 
 If 10 <= Degrees <= 18 -- Morning - Outfit = Sweatshirt and Shoes = Sneakers or -- Afternoon - Outfit = Shirt and Shoes = Moccasins or -- Evening - Outfit = Shirt and Shoes = Moccasins
+
 If 18 < Degrees <= 24 -- 
