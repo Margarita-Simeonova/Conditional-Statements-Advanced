@@ -121,3 +121,19 @@ The following discounts are available:
 · If Nellie buys less than 120 Narcissus - the price increases by 15%;
 
 · If Nelly Buys less than 80 Gladioli - the price increases by 20%.
+
+3 lines are read from the console:
+
+· Flower type - text with options "Roses", "Dahlias", "Tulips", "Narcissus" or "Gladiolus";
+
+· Number of flowers - integer;
+
+· Budget - integer
+
+Output:
+
+· If their budget is sufficient - "Hey, you have a great garden with {number of flowers} {type of flowers} and {remaining amount} leva left.";
+
+· If their budget is NOT enough - "Not enough money, you need {necessary amount} leva more.".
+
+Amount to be formatted to the second decimal place.
