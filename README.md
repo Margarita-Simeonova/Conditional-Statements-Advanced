@@ -99,8 +99,25 @@ As output, print to the console one line: "It's {degrees} degrees, get your {clo
 03. New House:
    
 Marin and Nellie buy a house not far from Sofia. Nellie loves flowers so much that she convinces you to write a program to calculate how much it will cost them to plant a certain number of flowers and whether the available budget will be enough for them. Different flowers have different prices:
+
 Rose = 5 
+
 Dahlia = 3.80 
+
 Tulip = 2.80 
+
 Narcissus = 3 
+
 Gladiola = 2.50
+
+The following discounts are available:
+
+· If Nellie buys more than 80 Roses - 10% discount from the final price;
+
+· If Nellie buys more than 90 Dahlias - 15% discount from the final price;
+
+· If Nellie buys more than 80 Tulips - 15% discount from the final price;
+
+· If Nellie buys less than 120 Narcissus - the price increases by 15%;
+
+· If Nelly Buys less than 80 Gladioli - the price increases by 20%.
