@@ -184,4 +184,7 @@ The following is printed on the console:
 
 · If their budget is NOT enough - "Not enough money, you need {necessary amount} leva more.".
 
-Amount to be formatted to the second decimal place.
+Amount to be formatted to the second decimal place. Amounts must be formatted to two decimal places.
+
+########
+
