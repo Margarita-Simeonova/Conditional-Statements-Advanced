@@ -188,3 +188,43 @@ Amount to be formatted to the second decimal place. Amounts must be formatted to
 
 ########
 
+05. Journey:
+
+A young programmer has a certain budget and free time in a given season. Write a program that takes the budget and season as input and outputs where the programmer will vacation and how much he will spend.
+The budget determines the destination, and the season determines how much of the budget he will spend. If it is summer, he will vacation at a campsite, and in winter at a hotel. If he is in Europe, regardless of the season, he will vacation at a hotel. Each campsite or hotel, depending on the destination, has its own price, which corresponds to a certain percentage of the budget:
+
+• At 100 BGN or less - somewhere in Bulgaria:
+
+◦ Summer - 30% of the budget;
+
+◦ Winter - 70% of the budget.
+
+• At 1000 BGN or less - somewhere in the Balkans:
+
+◦ Summer - 40% of the budget;
+
+◦ Winter - 80% of the budget.
+
+• At more than 1000 BGN - somewhere in Europe:
+
+◦ When traveling in Europe, regardless of the season, he will spend 90% of the budget.
+
+Input:
+
+The input is read from the console and consists of two lines entered by the user:
+
+• Budget - a real number;
+
+• One of the two possible seasons - "summer" or "winter".
+
+Output:
+
+Two lines should be printed to the console:
+
+• "Somewhere in [destination]" between "Bulgaria", "Balkans" and "Europe"
+
+• "{Holiday type} - {Amount spent}":
+
+◦ The holiday can be between "Camp" and "Hotel"
+
+◦ The amount should be formatted with accuracy to the second decimal place
