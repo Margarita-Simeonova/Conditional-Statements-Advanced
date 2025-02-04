@@ -132,6 +132,54 @@ The following discounts are available:
 
 Output:
 
+########
+
+04. Fishing Boat:
+
+Tony and his friends love to go fishing and are so passionate about fishing that they decide to go fishing by boat. The price for renting the boat depends on the season and the number of fishermen:
+
+Depending on the season:
+
+• The price for renting the boat in spring is 3000 BGN;
+
+• The price for renting the boat in summer and autumn is 4200 BGN;
+
+• The price for renting the boat in winter is 2600 BGN.
+
+Depending on the number of the group, there is a different discount:
+
+• If the group is up to 6 people inclusive - a 10% discount;
+
+• If the group is from 7 to 11 people inclusive - a 15% discount;
+
+• If the group is from 12 and up - a 25% discount.
+
+Fishermen benefit from an additional 5% discount if they are an even number, unless it is autumn - then they do not have an additional discount, which is calculated after deducting the discount according to the above criteria.
+
+Write a program that calculates whether the fishermen will collect enough money.
+
+Input:
+
+Three lines are read from the console:
+
+• Budget of the group - an integer;
+
+• Season - text: "Spring", "Summer", "Autumn" or "Winter";
+
+• Number of fishermen - an integer.
+
+Output:
+
+The following is printed on the console:
+
+• If the budget is sufficient:
+
+"Yes! You have {the remaining money} leva left."
+
+• If the budget IS NOT sufficient:
+
+"Not enough money! You need {the amount that is not enough} leva."
+
 · If their budget is sufficient - "Hey, you have a great garden with {number of flowers} {type of flowers} and {remaining amount} leva left.";
 
 · If their budget is NOT enough - "Not enough money, you need {necessary amount} leva more.".
