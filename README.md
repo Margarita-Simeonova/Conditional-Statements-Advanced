@@ -254,3 +254,6 @@ So drucken Sie eine Zeile auf der Konsole:
  • Im Falle einer Division durch 0 (Null):
  ◦ „{N1} kann nicht durch Null geteilt werden“
 Beispiele für Eingabe und Ausgabe
+
+########
+
