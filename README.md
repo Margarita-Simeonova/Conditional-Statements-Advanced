@@ -227,4 +227,30 @@ Two lines should be printed to the console:
 
 ◦ The holiday can be between "Camp" and "Hotel"
 
-◦ The amount should be formatted with accuracy to the second decimal place
+◦ The amount should be formatted with accuracy to the second decimal place.
+
+########
+
+06. Operations Between Numbers:
+
+Schreiben Sie ein Programm, das zwei ganze Zahlen (N1 und N2) und einen Operator liest, um eine bestimmte mathematische Operation auszuführen. Mögliche Operationen sind: Addition(+), Subtraktion(-), Multiplikation(*), Division(/) und Modulare Division(%). Beim Addieren, Subtrahieren und Multiplizieren sollte die Konsole das Ergebnis und die Angabe, ob es gerade oder ungerade ist, ausgeben. Bei der gewöhnlichen Division ist das Ergebnis. In modularer Aufteilung - der Rest. Es ist zu beachten, dass der Divisor gleich 0 (Null) sein kann und nicht durch Null teilbar ist. In diesem Fall muss eine besondere Meldung aufgedruckt werden.
+
+Input:
+
+3 vom Benutzer eingegebene Zeilen werden aus der Konsole gelesen:
+ • N1 – Ganzzahl;
+ • N2 – Ganzzahl;
+ • Operator – ein Zeichen aus der Auswahl: „+“, „-“, „*“, „/“, „%“.
+ 
+Output:
+
+So drucken Sie eine Zeile auf der Konsole:
+ • Wenn es sich bei der Operation um Addition, Subtraktion oder Multiplikation handelt:
+ ◦ "{N1} {Operator} {N2} = {Ergebnis} - {gerade/ungerade}"
+ • Wenn es sich bei der Operation um eine Division handelt:
+ ◦ "{N1} / {N2} = {Ergebnis}" - Ergebnis auf die zweite Dezimalstelle formatiert
+ • Wenn es sich um eine modulare Aufteilung handelt:
+ ◦ "{N1} % {N2} = {Rest}"
+ • Im Falle einer Division durch 0 (Null):
+ ◦ „{N1} kann nicht durch Null geteilt werden“
+Beispiele für Eingabe und Ausgabe
