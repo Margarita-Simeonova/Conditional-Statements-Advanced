@@ -348,3 +348,6 @@ If the student arrives at least a minute before the exam time, print on the next
 • "hh:mm hours after the start" for being 1 hour or more late. Always print minutes as 2 digits, e.g. "1:03".
 
 ########
+
+09. Ski Trip:
+
