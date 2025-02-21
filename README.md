@@ -271,3 +271,5 @@ Beispiele für Eingabe und Ausgabe
 
 ########
 
+07. Hotel Room:
+
