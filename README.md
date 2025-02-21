@@ -313,3 +313,38 @@ The price for the entire stay must be formatted with an accuracy of two decimal 
 
 08. On Time for the Exam:
 
+A student must go to an exam at a certain time (for example, 9:30). He comes to the exam hall at a given arrival time (for example, 9:40). The student is considered to have arrived on time if he has arrived at the exam time or up to half an hour before. If he has arrived more than 30 minutes earlier, he is early. If he has arrived after the exam time, he is late. Write a program that reads the exam time and the arrival time and prints whether the student has arrived on time, whether he is early or late, and by how many hours or minutes he is early or late.
+
+Input:
+
+4 integers (one per line) entered by the user are read from the console:
+
+• The first line contains the exam time - an integer from 0 to 23;
+
+• The second line contains the exam minute - an integer from 0 to 59;
+
+• The third line contains the arrival time - an integer from 0 to 23;
+
+• The fourth line contains the minute of arrival - an integer from 0 to 59.
+
+Output:
+
+On the first line, print:
+
+• "Late", if the student arrives later than the exam time;
+
+• "On time", if the student arrives exactly on time or up to 30 minutes early;
+
+• "Early", if the student arrives more than 30 minutes before the exam time.
+
+If the student arrives at least a minute before the exam time, print on the next line:
+
+• "mm minutes before the start" for arriving less than an hour early;
+
+• "hh:mm hours before the start" for arriving 1 hour or more early. Always print minutes as 2 digits, e.g. "1:05";
+
+• "mm minutes after the start" for being less than an hour late;
+
+• "hh:mm hours after the start" for being 1 hour or more late. Always print minutes as 2 digits, e.g. "1:03".
+
+########
