@@ -310,3 +310,6 @@ To print 2 lines on the console:
 The price for the entire stay must be formatted with an accuracy of two decimal places.
 
 ########
+
+08. On Time for the Exam:
+
