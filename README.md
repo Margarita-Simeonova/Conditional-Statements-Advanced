@@ -351,3 +351,51 @@ If the student arrives at least a minute before the exam time, print on the next
 
 09. Ski Trip:
 
+Atanas decides to spend his vacation in Bansko and go skiing. Before he goes, however, he needs to book a hotel and calculate how much his stay will cost. The following types of rooms are available, with the following prices for stays:
+
+▪ "room for one person" – 18.00 lv per night
+
+▪ "apartment" – 25.00 lv per night
+
+▪ "president apartment" – 35.00 lv per night
+
+According to the number of days he will stay in the hotel (example: 11 days = 10 nights) and the type of room he will choose, he can use different discounts.
+
+The discounts are as follows:
+
+room for one person - no discount
+
+apartment:
+
+less than 10 days - 30% of the final price
+
+between 10 and 15 days - 35% of the final price
+
+more than 15 days - 50% of the final price
+
+president apartment:
+
+less than 10 days - 10% of the final price
+
+between 10 and 15 days - 15% of the final price
+
+more than 15 days - 20% of the final price
+
+After the stay, Atanas's assessment of the hotel's services can be positive or negative. If his assessment is positive, Atanas adds 25% of the discount to the price with the discount already deducted. If his assessment is negative, he deducts 10%.
+
+Input:
+
+The input is read from the console and consists of three lines:
+
+• First line - days of stay - integer in the range [0...365]
+
+• Second line - type of room - "room for one person", "apartment" or "president apartment"
+
+• Third line - rating - "positive" or "negative"
+
+Output:
+
+One line should be printed to the console:
+
+• The price for his stay at the hotel, formatted to the second decimal place.
+
