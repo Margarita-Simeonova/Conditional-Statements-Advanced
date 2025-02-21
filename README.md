@@ -233,26 +233,40 @@ Two lines should be printed to the console:
 
 06. Operations Between Numbers:
 
-Schreiben Sie ein Programm, das zwei ganze Zahlen (N1 und N2) und einen Operator liest, um eine bestimmte mathematische Operation auszuführen. Mögliche Operationen sind: Addition(+), Subtraktion(-), Multiplikation(*), Division(/) und Modulare Division(%). Beim Addieren, Subtrahieren und Multiplizieren sollte die Konsole das Ergebnis und die Angabe, ob es gerade oder ungerade ist, ausgeben. Bei der gewöhnlichen Division ist das Ergebnis. In modularer Aufteilung - der Rest. Es ist zu beachten, dass der Divisor gleich 0 (Null) sein kann und nicht durch Null teilbar ist. In diesem Fall muss eine besondere Meldung aufgedruckt werden.
+Write a program that reads two integers (N1 and N2) and an operator to perform a given mathematical operation. The possible operations are: Addition(+), Subtraction(-), Multiplication(*), Division(/) and Modular Division(%.) When adding, subtracting and multiplying, the result and whether it is even or odd should be printed on the console. In the case of ordinary division - the result. In the case of modular division - the remainder. It should be borne in mind that the divisor can be equal to 0 (zero), and division by zero is not possible. In this case, a special message should be printed.
 
 Input:
 
-3 vom Benutzer eingegebene Zeilen werden aus der Konsole gelesen:
- • N1 – Ganzzahl;
- • N2 – Ganzzahl;
- • Operator – ein Zeichen aus der Auswahl: „+“, „-“, „*“, „/“, „%“.
- 
+3 lines entered by the user are read from the console:
+
+• N1 - integer;
+
+• N2 - integer;
+
+• Operator - one symbol from: "+", "-", "*", "/", "%".
+
 Output:
 
-So drucken Sie eine Zeile auf der Konsole:
- • Wenn es sich bei der Operation um Addition, Subtraktion oder Multiplikation handelt:
- ◦ "{N1} {Operator} {N2} = {Ergebnis} - {gerade/ungerade}"
- • Wenn es sich bei der Operation um eine Division handelt:
- ◦ "{N1} / {N2} = {Ergebnis}" - Ergebnis auf die zweite Dezimalstelle formatiert
- • Wenn es sich um eine modulare Aufteilung handelt:
- ◦ "{N1} % {N2} = {Rest}"
- • Im Falle einer Division durch 0 (Null):
+Print one line to the console:
+
+• If the operation is addition, subtraction, or multiplication:
+
+◦ "{N1} {operator} {N2} = {result} - {even/odd}"
+
+• If the operation is division:
+
+◦ "{N1} / {N2} = {result}" - result, formatted to the second decimal place
+
+• If the operation is modular division:
+
+◦ "{N1} % {N2} = {remainder}"
+
+• In case of division by 0 (zero):
+
+◦ "Cannot divide {N1} by zero"
+
  ◦ „{N1} kann nicht durch Null geteilt werden“
+ 
 Beispiele für Eingabe und Ausgabe
 
 ########
