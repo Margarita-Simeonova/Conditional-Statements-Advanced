@@ -273,3 +273,40 @@ Beispiele für Eingabe und Ausgabe
 
 07. Hotel Room:
 
+A hotel offers 2 types of rooms: studio and apartment. Write a program that calculates the price for the entire stay for a studio and an apartment. The prices depend on the month of stay:
+
+May and October: Studio - 50 BGN/night; Apartment - 65 BGN/night
+
+June and September: Studio - 75.20 BGN/night; Apartment - 68.70 BGN/night
+
+July and August: Studio - 76 BGN/night; Apartment - 77 BGN/night
+
+The following discounts are also offered:
+
+• For a studio, for more than 7 nights in May and October: 5% discount.
+
+• For a studio, for more than 14 nights in May and October: 30% discount.
+
+• For a studio, for more than 14 nights in June and September: 20% discount.
+
+• For an apartment, for more than 14 nights, regardless of the month: 10% discount.
+
+Input:
+
+The input is read from the console and contains exactly 2 lines entered by the user:
+
+• On the first line is the month - May, June, July, August, September or October;
+
+• On the second line is the number of nights - an integer.
+
+Output:
+
+To print 2 lines on the console:
+
+• On the first line: "Apartment: {price for the entire stay} lv."
+
+• On the second line: "Studio: {price for the entire stay} lv."
+
+The price for the entire stay must be formatted with an accuracy of two decimal places.
+
+########
